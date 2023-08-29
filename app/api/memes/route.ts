@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 export async function GET(request: Request) {
   /* Return all memes filtered by title and ordered by create_at */
 
-  return NextResponse.json({});
+  return NextResponse.json([]);
 }
 
 export async function POST(request: Request) {
